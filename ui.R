@@ -2,7 +2,7 @@ ui <- fluidPage(
   
   HTML('<meta name="viewport" content="width=1024">'),
   # Application title
-  titlePanel(div(HTML("CT value Normalized Heatmap for Morgan lab"))),
+  titlePanel(div(HTML("CT value Normalized Heatmap for qPCR"))),
   sidebarLayout(
     sidebarPanel(
       fileInput("file", "Choose CSV File",
