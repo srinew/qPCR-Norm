@@ -11,7 +11,8 @@ ui <- fluidPage(
                   "text/comma-separated-values,text/plain",
                   ".csv")
       ),
-      # checkboxInput("header", "Header", TRUE), 
+      checkboxGroupInput("header", "Housekeeping genes:",
+                         c("ACTB","GAPDH","TUBB"),selected = c("ACTB","GAPDH","TUBB")),
       radioButtons("select_class_1",
                    "Sample Clustering:",
                    selected = c("Yes"),
