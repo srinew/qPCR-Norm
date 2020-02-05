@@ -1,4 +1,4 @@
-# Plot and download qPCR normalized heatmap by uploading a GeneXSample CT value .csv file
+# Plot and download qPCR normalized heatmap by uploading a GeneXSample raw CT value .csv file
 
 Link to app: https://svnallan.shinyapps.io/heatmap_shiny/
 
