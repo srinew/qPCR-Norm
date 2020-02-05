@@ -25,10 +25,7 @@ server <- function(input, output) {
     tlda.ct[nrow(tlda.ct)+1,] <- NA
     rownames(tlda.ct)[[nrow(tlda.ct)]] <- "Int.Control"
     
-    ref.genes <- c("ACTB", "GAPDH", "TUBB")
-    ref1 <- "ACTB"
-    ref2 <- "GAPDH"
-    ref3 <- "TUBB"
+    ref.genes <- c(input$header)
     
     # Calculate the internal controls mean for each sample
     for(i in 1:ncol(tlda.ct)){
