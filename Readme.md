@@ -18,3 +18,6 @@ Column5: Tumor2
 
 # Gene Annotations:
 First column is for gene symbols/identifiers, cannot be duplicates. Housekeeping genes can be selected manually e.g ACTB, GAPDH, TUBB.
+
+# Normalization:
+log2(2^(-ddCT)+1)
